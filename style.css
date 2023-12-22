@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: url(weather-photo.jpg)   no-repeat  center center/cover ;
+  
+}
+.card{
+   width: 90%;
+   max-width: 470px;
+   background: linear-gradient(rgb(126, 226, 242),white);
+   color: black;
+   margin:20px auto 0;
+   border-radius: 20px;
+   padding: 40px 35px;
+   text-align: center;
+}
+#city{
+   height: 50px;
+   width: 150px;
+   border: 2px solid black;
+   border-radius: 10px;
+   text-align: center; 
+   font-size: 1.6rem ;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 100px;
+    text-align: center; 
+    font-size: 1.6rem ;
+ }
+ 
